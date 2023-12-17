@@ -71,6 +71,16 @@ def oqram(qc: QuantumCircuit, ad0:QuantumRegister, ad1:QuantumRegister, bus:Quan
     qc.x(ad1)
     qc.h(bus)
     qc.barrier()   
+
+    # ###########啦啦啦啦啦啦啦啦啦
+    k = np.random.randint(0,10,size=1)
+    # print(k)
+    m = 0
+    for m in range (k[0]):
+        qc.x(bus)
+        qc.y(bus)
+        qc.z(bus) 
+    
     # tout = time.time()
     # print("t_in = ",tin)
     # print("t_out = ",tout)
@@ -116,16 +126,6 @@ def oqram(qc: QuantumCircuit, ad0:QuantumRegister, ad1:QuantumRegister, bus:Quan
 # print("t_qram = ",t2-t1)
 # print("t_compute = ",t3-t2)
 
-
-
-# ###########################
-# #####Shor's algo
-
-
-# print(circuit.draw())
-# print("t_prepare = ",t1-t0)
-# print("t_qram = ",t2-t1)
-# print("t_compute = ",t3-t2)
 
 
 
@@ -192,73 +192,72 @@ def oqram(qc: QuantumCircuit, ad0:QuantumRegister, ad1:QuantumRegister, bus:Quan
 ###########################
 #####Hidden shift problem
 #####3 address qubit
-hsp = QuantumRegister(2, name='hsp')
-bus = QuantumRegister(1, name='bus')
-qram = QuantumRegister(8, name='qram')
-# anci = QuantumRegister(1, name='anci')
-circuit = QuantumCircuit(hsp, bus, qram)
+# gthyf67dcfxx
 
-t0 = time.time()
-circuit.h(hsp[1])
+# # circuit.measure_all()
 
-t1 = time.time()
-oqram(circuit, hsp[0], hsp[1], bus, qram)
-t2 = time.time()
-
-circuit.z(hsp[0])
-t3 = time.time()
-
-oqram(circuit, hsp[0], hsp[1], bus, qram)
-t4 = time.time()
-
-circuit.h(hsp[1])
-t5 = time.time()
-
-# print(circuit)
-print("t_prepare = ",t1-t0)
-print("t_qram1 = ",t2-t1)
-print("t_compute1 = ",t3-t2)
-print("t_qram2 = ",t4-t3)
-print("t_compute2 = ",t5-t4)
+# # print(circuit)
+# print("t_prepare = ",t1-t0)
+# print("t_qram1 = ",t2-t1)
+# print("t_compute1 = ",t3-t2)
+# print("t_qram2 = ",t4-t3)
+# print("t_compute2 = ",t5-t4)
 
 # ##### 1000 turns
-# t_prepare = 0
-# t_qram1 = 0
-# t_compute1 = 0
-# t_qram2 = 0
-# t_compute2 = 0
-# for x in range(1000):
-#     hsp = QuantumRegister(2, name='hsp')
-#     bus = QuantumRegister(1, name='bus')
-#     qram = QuantumRegister(8, name='qram')
-#     # anci = QuantumRegister(1, name='anci')
-#     circuit = QuantumCircuit(hsp, bus, qram)
-#     t0 = time.time()
-#     circuit.h(hsp[1])
-#     t1 = time.time()
-#     oqram(circuit, hsp[0], hsp[1], bus, qram)
-#     t2 = time.time()
-#     circuit.z(hsp[0])
-#     t3 = time.time()
-#     oqram(circuit, hsp[0], hsp[1], bus, qram)
-#     t4 = time.time()
-#     circuit.h(hsp[1])
-#     t5 = time.time()
-#     t_prepare += t1-t0
-#     t_qram1 += t2-t1
-#     t_compute1 = t3-t2
-#     t_qram2 = t4-t3
-#     t_compute2 = t5-t4
-# t_prepare = t_prepare / 1001
-# t_qram1 = t_qram1 / 1001
-# t_compute1 = t_compute1 / 1001
-# t_qram2 = t_qram2 / 1001
-# t_compute2 = t_compute2 / 1001
-# print("t_prepare = ",t_prepare)
-# print("t_qram1 = ",t_qram1)
-# print("t_compute1 = ",t_compute1)
-# print("t_qram2 = ",t_qram2)
-# print("t_compute2 = ",t_compute2)
+t_prepare = 0
+t_qram1 = 0
+t_compute1 = 0
+t_qram2 = 0
+t_compute2 = 0
+for x in range(1000):
+    hsp = QuantumRegister(2, name='hsp')
+    bus = QuantumRegister(1, name='bus')
+    qram = QuantumRegister(8, name='qram')
+    circuit = QuantumCircuit(hsp, bus, qram)
+    t0 = time.time()
+    circuit.h(hsp[1])
+    k = np.random.randint(15,25,size=1)
+    m = 0
+    for m in range (k[0]):
+        circuit.x(bus)
+        circuit.y(bus)
+        circuit.z(bus)
+    t1 = time.time()
+    oqram(circuit, hsp[0], hsp[1], bus, qram)
+    t2 = time.time()
+    circuit.z(hsp[0])
+    k = np.random.randint(15,25,size=1)
+    m = 0
+    for m in range (k[0]):
+        circuit.x(bus)
+        circuit.y(bus)
+        circuit.z(bus)
+    t3 = time.time()
+    oqram(circuit, hsp[0], hsp[1], bus, qram)
+    t4 = time.time()
+    circuit.h(hsp[1])
+    k = np.random.randint(15,25,size=1)
+    m = 0
+    for m in range (k[0]):
+        circuit.x(bus)
+        circuit.y(bus)
+        circuit.z(bus)
+    t5 = time.time()
+    t_prepare +=t1-t0
+    t_qram1 += t2-t1
+    t_compute1 += t3-t2
+    t_qram2 += t4-t3
+    t_compute2 += t5-t4
+t_prepare = t_prepare / 1001
+t_qram1 = t_qram1 / 1001
+t_compute1 = t_compute1 / 1001
+t_qram2 = t_qram2 / 1001
+t_compute2 = t_compute2 / 1001
+print("t_prepare = ",t_prepare)
+print("t_qram1 = ",t_qram1)
+print("t_compute1 = ",t_compute1)
+print("t_qram2 = ",t_qram2)
+print("t_compute2 = ",t_compute2)
 
 
 # #########################
@@ -316,12 +315,28 @@ print("t_compute2 = ",t5-t4)
 
 #########################
 ######fake backend
-backend = FakeGuadalupeV2
+backend = FakeGeneva()
+# backend = FakeAuckland()
+# backend = FakeGeneva()
+# backend = FakeGuadalupeV2()
+# backend = FakeHanoiV2()
+# backend = FakeKolkataV2()
+# backend = FakeMelbourneV2()
+# backend = FakeMontrealV2()
+# backend = FakeMumbaiV2()
+# backend = FakePrague()
+# backend = FakeSherbrooke()
+# backend = FakeSydneyV2()
+# backend = FakeTorontoV2()
+# backend = FakeWashingtonV2()
 # Transpile the ideal circuit to a circuit that can be directly executed by the backend
 transpiled_circuit = transpile(circuit, backend)
-transpiled_circuit.draw('mpl')
+print(backend)
+# transpiled_circuit.draw('mpl')
 
-# Run the transpiled circuit using the simulated fake backend
-job = backend.run(transpiled_circuit)
-counts = job.result().get_counts()
-plot_histogram(counts)
+# # Run the transpiled circuit using the simulated fake backend
+# job = backend.run(transpiled_circuit)
+# job.wait_for_final_state()
+# counts = job.result(0).get_counts()
+# # plot_histogram(counts)
+# # print(counts)
