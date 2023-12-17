@@ -1,0 +1,109 @@
+
+Hidden shift problem
+
+t_prepare =  0.0006862656100765689
+t_qram1 =  0.0006792924025437454
+t_compute1 =  0.0006592745309347634
+t_qram2 =  0.0006629827615621683
+t_compute2 =  0.0006619014225520574
+<qiskit.providers.fake_provider.backends.geneva.fake_geneva.FakeGeneva object at 0x7f900d10f3a0>
+
+1000 average
+t_prepare =  1.713445970228502e-05
+t_qram1 =  0.0004998856372052021
+t_compute1 =  1.1781831602235654e-05
+t_qram2 =  0.00048238199788492756
+t_compute2 =  1.1352868704171805e-05
+<qiskit.providers.fake_provider.backends.geneva.fake_geneva.FakeGeneva object at 0x7fceea0536a0>
+
+t_prepare =  1.7404794454812766e-05
+t_qram1 =  0.0005045856510128055
+t_compute1 =  1.1979044972361623e-05
+t_qram2 =  0.0004868490712625997
+t_compute2 =  1.1535076709179492e-05
+<qiskit.providers.fake_provider.backends.auckland.fake_auckland.FakeAuckland object at 0x7f9db71656a0>
+
+t_prepare =  1.7337151221581152e-05
+t_qram1 =  0.0005001107176819762
+t_compute1 =  1.1640828806203562e-05
+t_qram2 =  0.00048186228825495794
+t_compute2 =  1.113755362374442e-05
+<qiskit.providers.fake_provider.backends.geneva.fake_geneva.FakeGeneva object at 0x7ff2411106a0>
+
+t_prepare =  1.7396696321256867e-05
+t_qram1 =  0.0005039823400628912
+t_compute1 =  1.1848760294271158e-05
+t_qram2 =  0.0004858584789843945
+t_compute2 =  1.1310234412803992e-05
+<qiskit.providers.fake_provider.backends.guadalupe.fake_guadalupe.FakeGuadalupeV2 object at 0x7ff618b8e6a0>
+
+t_prepare =  1.6831017874337578e-05
+t_qram1 =  0.0004946244703782545
+t_compute1 =  1.1697515741094842e-05
+t_qram2 =  0.000476905277797154
+t_compute2 =  1.1176377028732986e-05
+<qiskit.providers.fake_provider.backends.hanoi.fake_hanoi.FakeHanoiV2 object at 0x7f40cbb616a0>
+
+t_prepare =  1.6967257062395613e-05
+t_qram1 =  0.0004966661527559355
+t_compute1 =  1.2268910517583004e-05
+t_qram2 =  0.0004799577977869299
+t_compute2 =  1.1181855177903152e-05
+<qiskit.providers.fake_provider.backends.kolkata.fake_kolkata.FakeKolkataV2 object at 0x7fa70f372c40>
+
+t_prepare =  1.7107545317231598e-05
+t_qram1 =  0.0005007371321305647
+t_compute1 =  1.1602005401214996e-05
+t_qram2 =  0.00048387110173761787
+t_compute2 =  1.1251403854324387e-05
+<qiskit.providers.fake_provider.backends.melbourne.fake_melbourne.FakeMelbourneV2 object at 0x7fb46185b6a0>
+
+t_prepare =  1.7495541186718555e-05
+t_qram1 =  0.0005024929980298022
+t_compute1 =  1.2060026307920596e-05
+t_qram2 =  0.00048470378041148306
+t_compute2 =  1.158985820088115e-05
+<qiskit.providers.fake_provider.backends.montreal.fake_montreal.FakeMontrealV2 object at 0x7ff7d74886a0>
+
+t_prepare =  1.7006795008580285e-05
+t_qram1 =  0.0004984872800844175
+t_compute1 =  1.1823751352407358e-05
+t_qram2 =  0.0004817093764389907
+t_compute2 =  1.1314283479581941e-05
+<qiskit.providers.fake_provider.backends.mumbai.fake_mumbai.FakeMumbaiV2 object at 0x7fdeee5076a0>
+
+t_prepare =  1.7876153463845723e-05
+t_qram1 =  0.0005047940588616706
+t_compute1 =  1.182065500722422e-05
+t_qram2 =  0.0004866070799775176
+t_compute2 =  1.1728955553723621e-05
+<qiskit.providers.fake_provider.backends.prague.fake_prague.FakePrague object at 0x7f686df766a0>
+
+t_prepare =  1.7158992283351414e-05
+t_qram1 =  0.0005048640838988892
+t_compute1 =  1.1968565034818697e-05
+t_qram2 =  0.0004875247890537197
+t_compute2 =  1.1421941019795635e-05
+<qiskit.providers.fake_provider.backends.sherbrooke.fake_sherbrooke.FakeSherbrooke object at 0x7f3e85b596a0>
+
+t_prepare =  1.7286180616258742e-05
+t_qram1 =  0.0005026061337191861
+t_compute1 =  1.1993097615885092e-05
+t_qram2 =  0.00048572295433753257
+t_compute2 =  1.1536029430774305e-05
+<qiskit.providers.fake_provider.backends.sydney.fake_sydney.FakeSydneyV2 object at 0x7f94bb2356a0>
+
+t_prepare =  1.7445523302990953e-05
+t_qram1 =  0.0005088802817818168
+t_compute1 =  1.3110163685801504e-05
+t_qram2 =  0.0004922548135915598
+t_compute2 =  1.1695372117506517e-05
+<qiskit.providers.fake_provider.backends.toronto.fake_toronto.FakeTorontoV2 object at 0x7f51f7ca96a0>
+
+t_prepare =  1.804716699011438e-05
+t_qram1 =  0.0005178029958780233
+t_compute1 =  1.2286297686688312e-05
+t_qram2 =  0.0004995912462324053
+t_compute2 =  1.1914498084313148e-05
+<qiskit.providers.fake_provider.backends.washington.fake_washington.FakeWashingtonV2 object at 0x7f91026546a0>
+

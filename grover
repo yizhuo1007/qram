@@ -1,0 +1,69 @@
+t_prepare =  2.9294998138458222e-05
+t_qram1 =  0.0004958892082953667
+t_compute1 =  9.641447267332277e-05
+<qiskit.providers.fake_provider.backends.geneva.fake_geneva.FakeGeneva object at 0x7f25135a36a0>
+
+t_prepare =  2.9520316795631125e-05
+t_qram1 =  0.0005000804687713409
+t_compute1 =  9.720070616944091e-05
+<qiskit.providers.fake_provider.backends.auckland.fake_auckland.FakeAuckland object at 0x7fb8fb4802b0>
+
+t_prepare =  2.9151375358040398e-05
+t_qram1 =  0.000498856459702407
+t_compute1 =  9.559965752936028e-05
+<qiskit.providers.fake_provider.backends.geneva.fake_geneva.FakeGeneva object at 0x7f72324e5070>
+
+t_prepare =  2.927237100058145e-05
+t_qram1 =  0.0004976079180524066
+t_compute1 =  9.62172593031968e-05
+<qiskit.providers.fake_provider.backends.guadalupe.fake_guadalupe.FakeGuadalupeV2 object at 0x7f657861f6a0>
+
+t_prepare =  2.903419060187859e-05
+t_qram1 =  0.0004950924948617057
+t_compute1 =  9.61670032390705e-05
+<qiskit.providers.fake_provider.backends.hanoi.fake_hanoi.FakeHanoiV2 object at 0x7f17d3c290d0>
+
+t_prepare =  3.014601670302354e-05
+t_qram1 =  0.0005064829960688725
+t_compute1 =  9.848473669884803e-05
+<qiskit.providers.fake_provider.backends.kolkata.fake_kolkata.FakeKolkataV2 object at 0x7fe37c4e26a0>
+
+t_prepare =  2.9387173952756227e-05
+t_qram1 =  0.0004967040234393292
+t_compute1 =  9.59840806928667e-05
+<qiskit.providers.fake_provider.backends.melbourne.fake_melbourne.FakeMelbourneV2 object at 0x7f2d548c66a0>
+
+t_prepare =  3.031012299772981e-05
+t_qram1 =  0.0005062774463847919
+t_compute1 =  9.993596986814455e-05
+<qiskit.providers.fake_provider.backends.montreal.fake_montreal.FakeMontrealV2 object at 0x7f8b5675f340>
+
+t_prepare =  2.9251887486293004e-05
+t_qram1 =  0.0004999082643430788
+t_compute1 =  9.719332257708112e-05
+<qiskit.providers.fake_provider.backends.mumbai.fake_mumbai.FakeMumbaiV2 object at 0x7f83a31526a0>
+
+t_prepare =  2.9874491048502278e-05
+t_qram1 =  0.0005096343609241101
+t_compute1 =  9.920046879695012e-05
+<qiskit.providers.fake_provider.backends.prague.fake_prague.FakePrague object at 0x7f81d3416e20>
+
+t_prepare =  2.947148981389704e-05
+t_qram1 =  0.0005053016212913064
+t_compute1 =  9.746151370602055e-05
+<qiskit.providers.fake_provider.backends.sherbrooke.fake_sherbrooke.FakeSherbrooke object at 0x7fcf8d7d0e80>
+
+t_prepare =  3.0169120201697715e-05
+t_qram1 =  0.0005085685036399148
+t_compute1 =  9.925882299463233e-05
+<qiskit.providers.fake_provider.backends.sydney.fake_sydney.FakeSydneyV2 object at 0x7fc11b65d6a0>
+
+t_prepare =  2.972729556210391e-05
+t_qram1 =  0.0005045649293181184
+t_compute1 =  9.810626804530919e-05
+<qiskit.providers.fake_provider.backends.toronto.fake_toronto.FakeTorontoV2 object at 0x7fac8ae5fe80>
+
+t_prepare =  2.9465297123530766e-05
+t_qram1 =  0.0005018818271267307
+t_compute1 =  9.887320892913239e-05
+<qiskit.providers.fake_provider.backends.washington.fake_washington.FakeWashingtonV2 object at 0x7f95325696a0>
